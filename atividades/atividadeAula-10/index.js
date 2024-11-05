@@ -4,6 +4,8 @@ console.log(x + y);  //15
 console.log(x - y);  //-1
 console.log(x * y);  //56
 console.log(x / y);  //0.875
+//console.log("x =" x,"y =" y)
+//console.log("exponenciação", x** y);
 */
 
 /*
@@ -49,9 +51,9 @@ let disjuncao = a || b || c;
 let negacaoDisjuncao = !(a || b || c);
 
 // Exibindo os resultados
-console.log("Conjunção de todos eles (a && b && c):", conjuncao);
-console.log("Disjunção de todos eles (a || b || c):", disjuncao);
-console.log("Negação da disjunção de todos eles (! (a || b || c)):", negacaoDisjuncao);
+console.log("Conjunção de todos eles (a && b && c):", conjuncao); //false
+console.log("Disjunção de todos eles (a || b || c):", disjuncao); //true
+console.log("Negação da disjunção de todos eles (! (a || b || c)):", negacaoDisjuncao); //false
 
 
 
