@@ -1,4 +1,4 @@
-const { basename } = require("path");
+
 
 let idade = 15;
 
@@ -115,3 +115,7 @@ console.log("------------------------")
 for (let nome of nomes) { //for each
     console.log("Bem-Vindo(a)!",nome);
 }
+
+// let numero = [40,82,73,19,46,58,80];
+// let last = numero.length
+// console.log(numero.last); resultado: undefined

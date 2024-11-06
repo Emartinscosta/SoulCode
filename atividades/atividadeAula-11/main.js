@@ -65,12 +65,12 @@ switch (mes) {
 //4.
 let usuario = "Funcionario";
 let senha = "1234";
-if (usuario === "admin" && senha === "1234") {
+if (usuario === "admin" && senha === senha) {
   console.log("Login bem-sucedido!");
 } else {
   console.log("Usuário ou senha incorretos!");
 }
 
 //5.
-let pontoJogo = 155;
+let pontoJogo = 50;
 console.log(pontoJogo >= 100 ? "VC Venceu!!" : "Tente Novamente!");
