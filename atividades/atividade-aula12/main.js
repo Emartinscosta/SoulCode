@@ -24,6 +24,19 @@ while (i < tamanho) {
 }
 
 console.log("A quantidade de números pares no vetor é:", contadorPares); // = 7
+
+let index = 0;
+let pares = [];
+let tam = numeros.lenght;
+    while (i < tam) {
+    const numero = numeros[index]
+    if (numeros % 2 === 0) {
+        pares.push(numeros);
+    }
+    index++
+}
+    console.log("Pares", pares);
+    console.log("Tamanho", pares.length);
 */
 
 //3.
@@ -51,7 +64,7 @@ let maior = Math.max(...numeros);
 
 console.log(maior); 
 */
-let numeros1 = [40, 82, 73, 19, 46, 58, 80];
+let numeros1 = [40, 82, 73, 190, 46, 58, 820, 756, 936, 152];
 let maior = numeros1[0]; 
 for (let i = 1; i < numeros1.length; i++) {
     if (numeros1[i] > maior) {
