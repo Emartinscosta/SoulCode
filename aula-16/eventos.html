@@ -1,0 +1,40 @@
+  
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+
+    <button id="btn">Clique</button>
+    <h2 id="nome">...</h2>
+    <input type="text" id="camponome">
+
+    <script>
+        const btn = document.querySelector("#btn");
+
+        // Evento para clique único
+        btn.addEventListener("click", () => {
+            btn.innerText = "CLICOU!!";
+        });
+
+        // Evento para clique duplo
+        btn.addEventListener("dblclick", () => {
+            btn.innerText = "CLICOU 2X";
+            window.alert("Você clicou duas vezes no botão!");
+        });
+
+        const nome = document.querySelector("#nome");
+        const camponome = document.querySelector("#camponome");
+
+        // Evento para input de texto
+        camponome.addEventListener("keyup", () => {
+           const text = camponome.value;
+           nome.innerText = text;
+        });
+    </script>
+
+</body>
+</html>
